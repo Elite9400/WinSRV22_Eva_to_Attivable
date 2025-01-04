@@ -15,3 +15,8 @@
 # PowerShell
 - dism /online /set-edition:serverStandard /productkey:VDYBN-27WPP-V4HQT-9VMD4-VMK7H /accepteula
 - dism /online /set-edition:serverDatacenter /productkey:WX4NM-KYWYW-QJJR4-XV3QB-6VM33 /accepteula
+
+# Attivazione Prodotto (Versione Datacenter)
+- slmgr.vbs /ipk WX4NM-KYWYW-QJJR4-XV3QB-6VM33
+- slmgr.vbs /skms {ip}
+- slmgr.vbs /ato
